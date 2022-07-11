@@ -1,0 +1,32 @@
+body{
+    background: #333945;
+
+}
+h1{
+    color:#ffffff;
+}
+.button1{
+    background-color: #26ae60;
+    border:none;
+    color:#Ffffff;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+    
+}
+.button2{
+    background-color: blue;
+    border:none;
+    color:#Ffffff;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10%;
+    
+    
+}
