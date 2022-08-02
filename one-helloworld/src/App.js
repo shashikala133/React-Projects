@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react";
 import "./style.css"
-import Button from './Button'
+import Button from "./Button";
+
 const App = () =>{
     return(
         <div>
-        <h1 style = {{textAlign:'center'}}>hello world!!!!</h1>
-        {/*<button className="button">App Store</button>
-        <button className="button">Play Store</button>*/}
-        <Button title="App Store" button="button1"/>
-        <Button title="Play Store" button="button2"/>
-        
+            <h1 style={{textAlign:"center"}}>hello world</h1>
+            <Button title="App Store"/>
+            <Button title="Play Store"/>
+            <Button />
+           {/* <button className="button1">App store</button>
+            <button className="button2">Play store</button>*/}
         </div>
     )
 }

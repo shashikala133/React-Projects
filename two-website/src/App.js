@@ -1,18 +1,19 @@
-import React from "react"
-import Navbar from "./Navbar";
-import HeroSection from "./Herosection";
-import AppSection from "./Appsection";
-import CardSection from "./Cardsection";
+import React from "react";
+import AppSection from "./AppSection";
+import CardSection from "./CardSection";
 import Footer from "./Footer";
-const App = () => {
+import HeroSection from "./HeroSection";
+import Navbar from "./Navbar";
+const App = () =>{
     return(
         <div>
-            <Navbar/>
-            <HeroSection/>
-            <AppSection/>
-            <CardSection/>
-            <Footer/>
+           <Navbar/>
+           <HeroSection/>
+           <AppSection/>
+           <CardSection/>
+           <Footer/>
         </div>
     )
 }
+
 export default App;
