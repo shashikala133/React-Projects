@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import "./App.css";
 
 function App(){
+  //never change that state directly
   //super setSuper
    //icetea setIcetea-->naming convention
    const [count, setCount] = useState(0);
